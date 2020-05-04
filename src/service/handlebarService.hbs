@@ -1,0 +1,18 @@
+
+export const initializeHandlebars = (app: Express) => {
+    app.set("view engine", "hbs");
+
+    app.engine("hbs", hbs({
+        defaultLayout: "default",
+        extname: ".hbs",
+        helpers: helpers(),
+        layoutsDir: path.join(__dirname, "../handlebars/layouts/"),
+        partialsDir: path.join(__dirname, "../handlebars/partials/")
+    }));
+
+    Handlebars.registerHelper("_toStr", (num) => {
+        return num.toString();
+    });
+
+    app.set("views", path.join(__dirname, "../handlebars/views"));
+};
