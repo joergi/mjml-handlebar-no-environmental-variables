@@ -4,7 +4,7 @@ import path from "path";
 import {TemplateModel} from "../model/templateModel";
 
 export const render = (req: Request, res: Response): void => {
-    console.log("hellooo");
+
     res.render(
         path.join(`main`),
         new TemplateModel(),
