@@ -1,5 +1,5 @@
 {
   "port": 7777,
   "context": "hello",
-  "hello": "not working"
+  "hello": "Hello from config"
 }

@@ -8,3 +8,5 @@ $ npm run start-dev
 ```
 
 the normal environmental variable will work, the mj include not
+
+test project for this [github issue](https://github.com/mjmlio/mjml/issues/874)

@@ -1,9 +1,7 @@
-import bodyParser from "body-parser";
-import express, {Request, Response, Router} from "express";
-import {render} from "./controller/testController";
+import express, {Router} from "express";
+import {render} from "./controller/controller";
 
 const router: Router = express.Router();
-const jsonParser = bodyParser.json();
 
 /**
  * Returns the rendered html

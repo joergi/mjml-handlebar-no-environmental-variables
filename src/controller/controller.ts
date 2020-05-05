@@ -6,11 +6,11 @@ import {TemplateModel} from "../model/templateModel";
 export const render = (req: Request, res: Response): void => {
     console.log("hellooo");
     res.render(
-        path.join(`src/handlebars/main.hbs`),
+        path.join(`main`),
         new TemplateModel(),
         (error, html) => {
             if (error) {
-                console.log("error");
+                console.log("error" + error.message);
                 res.sendStatus(400);
             } else {
                 res.send(mjml2html(html, {minify: true}).html).end();
