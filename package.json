@@ -34,7 +34,7 @@
     "handlebars-helpers": "^0.10.0",
     "http-status-codes": "^1.4.0",
     "jquery": "^3.4.1",
-    "jsdom": "^15.2.1",
+    "jsdom": "^16.2.2",
     "jsonwebtoken": "^8.5.1",
     "mjml": "^4.6.2",
     "mocha": "^6.2.2",
