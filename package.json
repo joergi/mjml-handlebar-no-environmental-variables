@@ -57,7 +57,7 @@
     "@types/jquery": "^3.3.34",
     "@types/jsonwebtoken": "^8.3.9",
     "@types/mjml": "^4.0.4",
-    "@types/mocha": "^5.2.7",
+    "@types/mocha": "^7.0.2",
     "@types/node": "^12.12.35",
     "@types/node-cache": "^4.2.5",
     "@types/node-fetch": "^2.5.5",
