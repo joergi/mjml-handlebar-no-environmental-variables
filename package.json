@@ -61,7 +61,7 @@
     "@types/node": "^12.12.35",
     "@types/node-cache": "^4.2.5",
     "@types/node-fetch": "^2.5.5",
-    "nodemon": "^2.0.3",
+    "nodemon": "^2.0.4",
     "fetch-mock": "^8.3.2"
   },
   "engines": {
